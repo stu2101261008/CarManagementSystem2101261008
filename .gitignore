@@ -1,0 +1,21 @@
+# Python файлове
+__pycache__/
+*.pyc
+*.pyo
+
+# Виртуална среда
+venv/
+
+# База данни
+*.db
+
+# Node.js модули
+frontend/node_modules/
+
+# Build файлове на фронтенда
+frontend/dist/
+frontend/build/
+
+# IDE конфигурации
+.vscode/
+.idea/
