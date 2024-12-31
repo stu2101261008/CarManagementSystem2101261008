@@ -8,6 +8,7 @@ venv/
 
 # База данни
 *.db
+backend/*.db
 
 # Node.js модули
 frontend/node_modules/
@@ -19,3 +20,11 @@ frontend/build/
 # IDE конфигурации
 .vscode/
 .idea/
+
+# Кеширани Python файлове в бекенда
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+
+# Виртуална среда в бекенда
+backend/venv/
